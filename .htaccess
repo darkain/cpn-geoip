@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI}      ^.*     [NC]
+RewriteRule . index.php [QSA,L]
